@@ -18,7 +18,7 @@ function clover() {
     } else {
        */
        
-
+        let confirm = window.confirm('Do you wish to continue?')
         if ( confirm == true) {
             var blue = document.getElementById('bb')
             const pill_blue_btc = 0.0029 
@@ -59,7 +59,7 @@ function red() {
         */
         
        
-
+        let confirm = window.confirm('Do you wish to continue?')
         if (confirm == true) {
             var red = document.getElementById('br')
             let red_pill_btc = 0.0013  
