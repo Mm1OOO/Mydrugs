@@ -9,9 +9,7 @@ function clover() {
 
     } else {
        */
-        let confirm = window.confirm('do you wish to continue?')
-
-        if ( confirm == true) {
+        
             var blue = document.getElementById('bb')
             const pill_blue_btc = 0.0029 
             const pill_blue_eth = 0.0114 
@@ -27,13 +25,6 @@ function clover() {
 
             //Condition true for continue buy
                 
-        } else {
-            
-            window.alert('Sorry but you without finalizing the order you cannot buy!')
-            location.href='../../index.html'
-
-            
-        }
         
     } 
     
@@ -47,11 +38,8 @@ function red() {
         document.location.reload(true)
         window.alert(`[Error] THE PRODUCT QUATITY ${itens_red.value}  IS NOT VALID!`)
 
-    } else {
-        window.alert(itens_red.value) */
-        let confirm = window.confirm('Do you wish to continue?')
-
-        if (confirm == true) {
+    } else {*/
+        
             var red = document.getElementById('br')
             let red_pill_btc = 0.0013 
             let red_pill_eth = 0.0523 
@@ -68,7 +56,7 @@ function red() {
            
         }
 
-    }
+    
     
 
 
@@ -80,9 +68,7 @@ function purple() {
 
     } else { */
         
-        let confirm = window.confirm('Do you wish to continue?')
-
-        if (confirm == true) {
+        
             var purple = document.getElementById('bp')
             const purple_pill_btc = 0.0021
             const purple_pill_eth = 0.0802
@@ -97,7 +83,7 @@ function purple() {
 
         } 
         
-    }
+    
 
 
 
@@ -109,9 +95,9 @@ function green() {
 
     } else { */
          
-        let confirm = window.confirm('Do you wish to continue?')
+        
 
-        if (confirm == true) {
+        
             var green = document.getElementById('bg')
             const green_pill_btc = 0.0044
             const green_pill_eth = 0.1667
@@ -125,7 +111,7 @@ function green() {
             }, 30000)
 
         } 
-    }
+    
 
 window.alert('the service is under maintenance!')
 
