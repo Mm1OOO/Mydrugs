@@ -50,19 +50,20 @@ function clover() {
 
 function red() {
     
-    if (itens_red === undefined || itens_red.value <= 0) {
+    /*if (itens_red === undefined || itens_red.value <= 0) {
         window.alert('[ERROR] please insert one number!')
         document.location.reload(true)
         window.alert(`[Error] THE PRODUCT QUATITY ${itens_red.value}  IS NOT VALID!`)
 
     } else {
-        window.alert(itens_red.value) 
+        */
+        
         let confirm = window.confirm('Do you wish to continue?')
 
         if (confirm == true) {
             var red = document.getElementById('br')
-            let red_pill_btc = 0.0013 * itens_red.value  
-            let red_pill_eth = itens_red.value * 0.0523 
+            let red_pill_btc = 0.0013  
+            let red_pill_eth = 0.0523 
             
             
             window.alert(`Total to pay ${red_pill_btc} BTC or ${red_pill_eth} ETH`)
@@ -76,7 +77,7 @@ function red() {
            
         } else {
             window.alert('Sorry but you without finalizing the order you cannot buy!')
-            location.href='../../index.html'
+            location.href='index.html'
         }
 
     }
@@ -84,19 +85,19 @@ function red() {
 }
 
 function purple() {
-    if (itens_purple === undefined || itens_purple.value <= 0) {
+    /*if (itens_purple === undefined || itens_purple.value <= 0) {
         window.alert('[ERROR] please insert one number!')
         document.location.reload(true)
         window.alert(`[Error] THE PRODUCT QUATITY ${itens_red.value}  IS NOT VALID!`)
 
     } else {
-        window.alert(itens_purple.value) 
+        */ 
         let confirm = window.confirm('Do you wish to continue?')
 
         if (confirm == true) {
             var purple = document.getElementById('bp')
-            const purple_pill_btc = 0.0021 * itens_purple.value
-            const purple_pill_eth = itens_purple.value * 0.0802
+            const purple_pill_btc = 0.0021 
+            const purple_pill_eth = 0.0802
 
             window.alert(`Total to pay ${purple_pill_btc} BTC or ${purple_pill_eth} ETH`)
             purple.innerHTML = `Total to pay ${purple_pill_btc} BTC or ${purple_pill_eth} ETH`
@@ -109,7 +110,7 @@ function purple() {
         } else {
             
             window.alert('Sorry but you without finalizing the order you cannot buy!')
-            location.href='../../index.html'
+            location.href='index.html'
         }
         
     }
@@ -117,19 +118,19 @@ function purple() {
 }
 
 function green() {
-    if (itens_green === undefined || itens_green.value <= 0) {
+    /*if (itens_green === undefined || itens_green.value <= 0) {
         window.alert('[ERROR] please insert one number!')
         document.location.reload(true)
         window.alert(`[Error] THE PRODUCT QUATITY ${itens_green.value}  IS NOT VALID!`)
 
     } else {
-        window.alert(itens_green.value) 
+        */
         let confirm = window.confirm('Do you wish to continue?')
 
         if (confirm == true) {
             var green = document.getElementById('bg')
-            const green_pill_btc = 0.0044 * itens_green.value
-            const green_pill_eth = itens_green.value * 0.1667
+            const green_pill_btc = 0.0044
+            const green_pill_eth = 0.1667
 
             window.alert(`Total to pay ${green_pill_btc} BTC or ${green_pill_eth} ETH`)
             green.innerHTML = `Total to pay ${green_pill_btc} BTC or ${green_pill_eth} ETH`
@@ -142,7 +143,7 @@ function green() {
         } else {
 
             window.alert('Sorry but you without finalizing the order you cannot buy!')
-            location.href='../../index.html'
+            location.href='index.html'
         }
     }
 }
