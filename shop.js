@@ -82,7 +82,7 @@ function red() {
 
     }
     
-}
+
 
 function purple() {
     /*if (itens_purple === undefined || itens_purple.value <= 0) {
@@ -115,7 +115,7 @@ function purple() {
         
     }
 
-}
+
 
 function green() {
     /*if (itens_green === undefined || itens_green.value <= 0) {
@@ -146,5 +146,5 @@ function green() {
             location.href='index.html'
         }
     }
-}
+
 
