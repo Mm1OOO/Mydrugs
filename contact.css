@@ -1,0 +1,11 @@
+body {
+    background-color: #000;
+}
+
+#span {
+    margin-left: 10px;
+}
+
+#pink, #yellow {
+    margin-right: 40px;
+}
