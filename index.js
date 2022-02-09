@@ -14,5 +14,5 @@ function back() {
     location.href = "index.html"
 }
 
-
+window.alert("Our store is under maintenance, thank you for your understanding!")
 
