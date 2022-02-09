@@ -17,7 +17,7 @@ function clover() {
 
     } else {
        */
-        let confirm = window.confirm('do you wish to continue?')
+       
 
         if ( confirm == true) {
             var blue = document.getElementById('bb')
@@ -58,7 +58,7 @@ function red() {
     } else {
         */
         
-        let confirm = window.confirm('Do you wish to continue?')
+       
 
         if (confirm == true) {
             var red = document.getElementById('br')
@@ -125,7 +125,7 @@ function green() {
 
     } else {
         */
-        let confirm = window.confirm('Do you wish to continue?')
+        
 
         if (confirm == true) {
             var green = document.getElementById('bg')
