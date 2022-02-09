@@ -106,9 +106,14 @@ p {
     margin-bottom: 100px;
 }
 
-.btc_ethp {
+.btc_ethpg {
     color: #f0f8ff;
-    padding: 50px 10px 10px 50px;
+  
     padding-bottom: 150px;
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+    
 }
 
