@@ -47,6 +47,7 @@ p {
     width: 350px;
     height: 390px;
     margin: 20px;
+    margin-top: 200px;
     display: inline-block;
     background-color: transparent;
     border: 1px solid #f0f8ff;  
