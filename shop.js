@@ -1,9 +1,4 @@
-var itens_blue = document.getElementById('num')
-var itens_red = document.getElementById('numr')
-var itens_purple = document.getElementById('nump')
-var itens_green = document.getElementById('numg')
-
-//input for numbers of products
+window.alert('the service is under maintenance!')
 
 
 
