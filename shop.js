@@ -79,7 +79,7 @@ function purple() {
         window.alert(`[Error] THE PRODUCT QUATITY ${itens_red.value}  IS NOT VALID!`)
 
     } else { */
-        window.alert(itens_purple.value) 
+        
         let confirm = window.confirm('Do you wish to continue?')
 
         if (confirm == true) {
@@ -108,7 +108,7 @@ function green() {
         window.alert(`[Error] THE PRODUCT QUATITY ${itens_green.value}  IS NOT VALID!`)
 
     } else { */
-        window.alert(itens_green.value) 
+         
         let confirm = window.confirm('Do you wish to continue?')
 
         if (confirm == true) {
