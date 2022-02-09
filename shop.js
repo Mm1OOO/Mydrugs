@@ -25,7 +25,7 @@ function clover() {
             const pill_blue_eth = 0.0114 
             
         
-            window.alert(`Total to pay ${pill_blue_btc} BTC or ${pill_blue_eth} ETH`)
+            
             blue.innerHTML = `Total to pay ${pill_blue_btc} BTC or ${pill_blue_eth} ETH`
              
             setTimeout(function bb(){
@@ -37,8 +37,8 @@ function clover() {
                 
         } else {
             
-            window.alert('Sorry but you without finalizing the order you cannot buy!')
-            location.href='../../index.html'
+            
+            location.href='index.html'
 
             
         }
@@ -66,7 +66,7 @@ function red() {
             let red_pill_eth = 0.0523 
             
             
-            window.alert(`Total to pay ${red_pill_btc} BTC or ${red_pill_eth} ETH`)
+            
             red.innerHTML = `Total to pay ${red_pill_btc} BTC or ${red_pill_eth} ETH`
 
             setTimeout(function br(){
@@ -99,7 +99,7 @@ function purple() {
             const purple_pill_btc = 0.0021 
             const purple_pill_eth = 0.0802
 
-            window.alert(`Total to pay ${purple_pill_btc} BTC or ${purple_pill_eth} ETH`)
+            
             purple.innerHTML = `Total to pay ${purple_pill_btc} BTC or ${purple_pill_eth} ETH`
 
             setTimeout(function bp(){
@@ -132,7 +132,7 @@ function green() {
             const green_pill_btc = 0.0044
             const green_pill_eth = 0.1667
 
-            window.alert(`Total to pay ${green_pill_btc} BTC or ${green_pill_eth} ETH`)
+            
             green.innerHTML = `Total to pay ${green_pill_btc} BTC or ${green_pill_eth} ETH`
 
             setTimeout(function bg(){
