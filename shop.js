@@ -18,8 +18,7 @@ function clover() {
     } else {
        */
        
-        let confirm = window.confirm('Do you wish to continue?')
-        if ( confirm == true) {
+ 
             var blue = document.getElementById('bb')
             const pill_blue_btc = 0.0029 
             const pill_blue_eth = 0.0114 
@@ -29,19 +28,13 @@ function clover() {
             blue.innerHTML = `Total to pay ${pill_blue_btc} BTC or ${pill_blue_eth} ETH`
              
             setTimeout(function bb(){
-                blue.innerHTML=''
+                blue.innerHTML='index.html'
                 location.reload(true)
-            }, 30000)
+            , 30000)
 
-            //Condition true for continue buy
+         
                 
-        } else {
-            
-            
-            location.href='index.html'
-
-            
-        }
+        
         
     } 
     
@@ -59,8 +52,6 @@ function red() {
         */
         
        
-        let confirm = window.confirm('Do you wish to continue?')
-        if (confirm == true) {
             var red = document.getElementById('br')
             let red_pill_btc = 0.0013  
             let red_pill_eth = 0.0523 
@@ -70,15 +61,13 @@ function red() {
             red.innerHTML = `Total to pay ${red_pill_btc} BTC or ${red_pill_eth} ETH`
 
             setTimeout(function br(){
-                red.innerHTML=''
+                blue.innerHTML='index.html'
                 location.reload(true)
-            }, 30000)
+            , 30000)
+
             
            
-        } else {
-            window.alert('Sorry but you without finalizing the order you cannot buy!')
-            location.href='index.html'
-        }
+   
 
     }
     
@@ -92,9 +81,7 @@ function purple() {
 
     } else {
         */ 
-        let confirm = window.confirm('Do you wish to continue?')
-
-        if (confirm == true) {
+       
             var purple = document.getElementById('bp')
             const purple_pill_btc = 0.0021 
             const purple_pill_eth = 0.0802
@@ -103,15 +90,10 @@ function purple() {
             purple.innerHTML = `Total to pay ${purple_pill_btc} BTC or ${purple_pill_eth} ETH`
 
             setTimeout(function bp(){
-                purple.innerHTML=''
+                blue.innerHTML='index.html'
                 location.reload(true)
-            }, 30000)
+            , 30000)
 
-        } else {
-            
-            window.alert('Sorry but you without finalizing the order you cannot buy!')
-            location.href='index.html'
-        }
         
     }
 
@@ -126,8 +108,6 @@ function green() {
     } else {
         */
         
-
-        if (confirm == true) {
             var green = document.getElementById('bg')
             const green_pill_btc = 0.0044
             const green_pill_eth = 0.1667
@@ -135,16 +115,11 @@ function green() {
             
             green.innerHTML = `Total to pay ${green_pill_btc} BTC or ${green_pill_eth} ETH`
 
-            setTimeout(function bg(){
-                green.innerHTML=''
+            setTimeout(function bb(){
+                blue.innerHTML='index.html'
                 location.reload(true)
-            }, 30000)
+            , 30000)
 
-        } else {
-
-            window.alert('Sorry but you without finalizing the order you cannot buy!')
-            location.href='index.html'
-        }
     }
 
 
