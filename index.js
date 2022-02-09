@@ -1,17 +1,17 @@
 function shop() {
-    location.href = "../src/pages/shop.html"
+    location.href = "shop.html"
 }
 function faq() {
-    location.href = "../src/pages/faq.html"
+    location.href = "faq.html"
 } 
 function safety() {
-    location.href = "../src/pages/safety.html"
+    location.href = "safety.html"
 }
 function contact() {
-    location.href = "../src/pages/contact.html"
+    location.href = "contact.html"
 }
 function back() {
-    location.href = "../src/pages/index.html"
+    location.href = "index.html"
 }
 
 
