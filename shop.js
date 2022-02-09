@@ -1,4 +1,4 @@
-window.alert('the service is under maintenance!')
+
 
 function clover() {
     /*if (itens_blue === undefined || itens_blue.value <= 0) {
@@ -127,6 +127,6 @@ function green() {
         } 
     }
 
-
+window.alert('the service is under maintenance!')
 
 
