@@ -48,7 +48,7 @@ p {
     height: 390px;
     margin: 20px;
     margin-top: 200px;
-    margin-bottom: 100px;
+    
     display: inline-block;
     background-color: transparent;
     border: 1px solid #f0f8ff;  
@@ -76,44 +76,17 @@ p {
     padding: 50px 10px 10px 50px;
 }
 
-#bb{
+.pay{
     color: #f0f8ff;
     padding: 50px 10px 10px 50px;
    
 }
 
-#br{
-    color: #f0f8ff;
-    padding: 50px 10px 10px 50px;
-   
-}
-
-#bp{
-    color: #f0f8ff;
-    padding: 50px 10px 10px 50px;
-   
-}
-
-#bg{
-    color: #f0f8ff;
-    padding: 50px 10px 10px 50px;
-   
-}
-
-.btc_eth{
-    color: #f0f8ff;
-    padding: 50px 10px 10px 50px;
-    margin-bottom: 100px;
-}
-
-.btc_ethpg {
-    color: #f0f8ff;
-  
-    padding-bottom: 150px;
-    padding-top: 10px;
-    padding-left: 1000px;
-    padding-right: 100px;
+.is-light {
     
-    
+    margin-bottom: 60px; 
 }
 
+.is-dark {
+    margin-left: 50px;
+}
