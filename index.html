@@ -1,117 +1,124 @@
 <!DOCTYPE html>
-  <html lang="en">
+<html lang="en">
 
-    <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.4, user-scalable=no">
-      <script defer src="https://use.fontawesome.com/releases/v5.3.1/css/all.css"></script>
-      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-      
-      <link rel="stylesheet" href="style_index.css">
-      <link rel="icon" href="logo_ico.ico">
-      <title>MyDrugs</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My References</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/css/all.css"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-    <body>
-      <nav class="navbar is-hidden-desktop is-black" role="navigation" aria-label="main navigation"  >
-        <div class="navbar-brand">
-          <a class="navbar-item" href="index.html">
-            <img src="logo.jpg" width="20" height="28">
-          </a>
-          
-            <a id="navbar-item" class="navbar-item" href="shop.html" style="color: #fff;">
-              Shop
-            </a>
-            <a id="navbar-item" class="navbar-item" href="faq.html" style="color: #fff;">
-              FAQ
-            </a>
-            <a id="navbar-item" class="navbar-item" href="index.html">
-              <img id="mobile-img" src="img_text.png" alt="logo main" >
-            </a>
+<body>
+    <header>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="index.html">
+                    <img src="https://bulma.io/images/placeholders/1280x960.png" width="100" height="100">
+                </a>
+            </div>
 
-        
-            <a id="navbar-item" class="navbar-item" href="contact.html" style="color: #fff;">
-              Contact
-            </a>
-          
-            <a id="navbar-item" class="navbar-item" href="app.html" style="color: #fff;">
-              Download
-            </a>
-              
-      </nav> 
-      
-      <nav class="nav is-hidden-mobile">
-        <div data-aos="fade-down">
-          <a href="index.html">
-            <img class="is-hidden-mobile" src="logo.jpg" alt="logo" width="100" height="100">
-            <img id="banner" src="banner.gif" alt="banner">
-          </a>
+            <div id="navbarBasicExample" class="navbar-menu is-active">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="index.html">
+                        Inicio
+                    </a>
+
+                    <a class="navbar-item" href="contact.html">
+                        Contato
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="card" data-aos="fade-right">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4">M1000</p>
+                                <span class="tag is-dark is-medium">Creator</span>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            <p>+1 987 343-234</p>
+                            <p>Msdfgfgs@protonmail.com</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="column" data-aos="fade-left">
+                    <div class="card">
+                        <header class="card-header">
+                            <p class="card-header-title">
+                                sobre mim
+                            </p>
+                        </header>
+                        <div class="card-content">
+                            <div class="content">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quisquam sit obcaecati mollitia officia aperiam tempore hic, facilis, doloribus deserunt excepturi esse voluptatem! Officiis veritatis nobis hic debitis, totam praesentium!
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas dicta ullam debitis doloribus perferendis. Exercitationem quaerat architecto recusandae earum aperiam amet quisquam eaque, rem quos id, dolorum odio! Corporis, odio.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-9" data-aos="zoom-in-up">
+                        <div class="card">
+                                <header class="card-header">
+                                    <p class="card-header-title">
+                                        Next Releases
+                                    </p>
+                                </header>
+                                <div class="card-content">
+                                    <div class="content">
+                                        <div class="columns">
+                                            <div class="column">
+                                                <figure class="image is-128x128">
+                                                    <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
+                                                </figure>
+                                            </div>
+                                            <div class="column is-9">
+                                                <p class="title is-5">Pink <span id="span" class="tag is-dark">New
+                                                        Product is Soon.</span></p>
+                                                <p id="pink">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat corrupti at explicabo consequatur porro suscipit nihil commodi, maiores qui deserunt sapiente quis ipsum hic culpa cumque saepe beatae ex corporis!
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <div class="columns">
+                                            <div class="column">
+                                                <figure class="image is-128x128">
+                                                    <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
+                                                </figure>
+                                            </div>
+                                            <div class="column is-9">
+                                                <p class="title is-5">Yellow <span id="span"
+                                                        class="tag is-dark">New Product is Soon.</span></p>
+                                                <p id="yellow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis reiciendis voluptatem, quasi numquam nobis quibusdam consequuntur temporibus quis unde nihil voluptate perspiciatis soluta labore quos eaque non veniam debitis minus!</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
         </div>
-      </nav>
-      
-      
-      
-      <header class="is-hidden-mobile">
-        
-        <div class="columns title" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-            <div class="column">
-              <h2 id="left" onclick="shop()">SHOP</h2>
-            </div>
-            <div class="column">
-              <h2 id="left" onclick="faq()">FAQ</h2>
-            </div>
-            <div class="column">
-              <img class="" id="center" src="img_text.png" alt="logo main" >
-            </div>
-            <div class="column">
-              <h2 id="right" onclick="safety()">APP</h2>
-            </div>
-            <div class="column">
-              <h2 id="right" onclick="contact()">CONTACT</h2>
-            </div>
-        </div>
-      </header>
-      
-      <section>
-          <h2 class="title" style="color:#fff; padding-top: 200px"; text-align: center;>Our store is under maintenance, thank you for your understanding!</h2> 
-      </section>
+    </section>
+    <script>AOS.init();</script>
+</body>
 
-      <section>
-        <div data-aos="fade-right">
-          <div>
-          <img id="gif" src="products.gif" alt="products">
-          </div>
-        </div>
-        <div data-aos="fade-up-left">
-          <p>MyDrugs the best site for the buy your drugs online, quickly and safely, Make your purchase now, Visit the FAQ.
-              for more information.</p>
-
-          <p>MyDrugs лучший сайт для покупки лекарств онлайн, быстро и безопасно. Сделайте покупку сейчас, посетите FAQ. Чтобы
-              получить больше информации.</p>
-
-            <p>MyDrugs de beste site om uw medicijnen online, snel en veilig te kopen. Doe nu uw aankoop, Bezoek de veelgestelde
-              vragen. voor meer informatie.</p>
-
-            <p>MyDrugs die beste Website für den schnellen und sicheren Online-Kauf Ihrer Medikamente. Kaufen Sie jetzt ein.
-              Besuchen Sie die FAQ. für mehr Informationen.</p>
-
-            <p>MyDrugs найкращий сайт для швидкої та безпечної покупки ліків в Інтернеті. Зробіть покупку зараз, відвідайте
-              розділ FAQ. для отримання додаткової інформації.</p>
-        </div>
-        
-          
-
-      </section>
-      <footer>
-      &copy;MyDrugs
-      </footer>
-
-    <script src="index.js"></script>
-    <script> AOS.init();</script>
-
-    </body>
-
-  </html>
+</html>
