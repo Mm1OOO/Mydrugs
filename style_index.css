@@ -23,6 +23,14 @@ h2 {
     
 }
 
+#mobile-img {
+    padding-top: 2px ;
+}
+
+#navbar-item {
+    padding-left: 10px;
+}
+
 .nav {
     padding-top: 60px;
 }
