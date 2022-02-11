@@ -28,7 +28,8 @@ h2 {
 }
 
 #navbar-item {
-    padding-left: 9px;
+    padding-left: 8px;
+    padding-right: 4px;
 }
 
 .nav {
